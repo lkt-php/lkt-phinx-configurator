@@ -1,0 +1,22 @@
+{
+  "name": "lkt/phinx-configurator",
+  "description": "LKT Phinx Configurator",
+  "type": "library",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=7.2.0",
+    "lkt/database-connector": "^1.0.0",
+    "lkt/mysql-connector": "^1.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5.20",
+    "symfony/var-dumper": "^5.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Lkt\\Phinx\\": "src",
+      "Lkt\\Phinx\\Tests\\": "tests"
+    }
+  }
+}
