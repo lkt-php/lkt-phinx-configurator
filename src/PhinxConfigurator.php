@@ -26,7 +26,7 @@ class PhinxConfigurator
     public static function addDefaultSeedPath(): void
     {
         if (!in_array(static::$defaultSeedPath, static::$migrationPaths, true)) {
-            static::$migrationPaths[] = static::$defaultSeedPath;
+            static::$seedsPaths[] = static::$defaultSeedPath;
         }
     }
 
@@ -40,7 +40,7 @@ class PhinxConfigurator
     public static function addSeedPath(string $path): void
     {
         if (!in_array($path, static::$migrationPaths, true)) {
-            static::$migrationPaths[] = $path;
+            static::$seedsPaths[] = $path;
         }
     }
 
