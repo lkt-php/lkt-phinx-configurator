@@ -2,8 +2,8 @@
 
 namespace Lkt\Phinx;
 
-use Lkt\DatabaseConnectors\DatabaseConnections;
-use Lkt\DatabaseConnectors\MySQLConnector;
+use Lkt\Connectors\DatabaseConnections;
+use Lkt\Connectors\MySQLConnector;
 
 class PhinxConfigurator
 {
