@@ -81,7 +81,7 @@ class PhinxConfigurator
             } else {
                 $defaultDatabase = array_keys($environments)[0];
             }
-            $environments['default_database'] = $defaultDatabase;
+            $environments['default_environment'] = $defaultDatabase;
         }
 
         $environments['default_migration_table'] = static::$migrationTable;
